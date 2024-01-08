@@ -129,9 +129,11 @@ img {
  ************************************************/
 @media screen and (max-width:768px)
 {
-    h1{
+    .container
+    {
+        width: 100%;
 
     }
-    
+    /* regola inserita per far si che il contenuto della pagina sia datti alla grandezza del dispositivo  */
    
 }
