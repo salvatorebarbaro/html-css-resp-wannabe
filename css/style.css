@@ -137,3 +137,19 @@ img {
     /* regola inserita per far si che il contenuto della pagina sia datti alla grandezza del dispositivo  */
    
 }
+@media screen and (max-width: 480px)
+{
+    .lessons .container .row , .steps .container .row , .why-us .row
+    {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .lessons .col ,.steps .col ,.why-us .col
+    {
+        width: 100%;
+        
+    }
+    /* abbiamo inserito queste 2 regole perchè per formattare questa pagina bastavano queste regole per farlo infatti abbiamo inserito più selettori per ogni classe di regole  */
+}
+/* regola inserita per far si che sia responsivo per i cellulari  */
